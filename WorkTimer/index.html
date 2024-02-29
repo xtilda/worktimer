@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Work Timer</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="background-image">
+  <div class="timer">
+    <h1 id="timer-label">Çalışma Süresi</h1>
+    <p id="time-left">25:00</p>
+  </div>
+  <div class="controls">
+    <form id="timer-form">
+      <input type="radio" id="duration-25" name="duration" value="25" checked>
+      <label for="duration-25">25 dakika</label><br>
+      <input type="radio" id="duration-40" name="duration" value="40">
+      <label for="duration-40">40 dakika</label><br>
+      <input type="radio" id="duration-60" name="duration" value="60">
+      <label for="duration-60">60 dakika</label><br>
+      <input type="text" id="subject" placeholder="Konu"><br>
+      <button type="button" id="start-btn">Başlat</button>
+      <button type="button" id="pause-btn">Duraklat</button>
+      <button type="button" id="reset-btn">Sıfırla</button>
+    </form>
+  </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>

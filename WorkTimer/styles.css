@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  
+  .timer {
+    margin-top: 50px;
+  }
+  
+  #time-left {
+    font-size: 3em;
+  }
+  
+  .controls {
+    margin-top: 20px;
+  }
+
+  .background-image {
+    background-image: url('background.jpg'); /* Arka plan resmi dosyasının adını belirtin */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh; /* Ekranın tamamını kaplamak için yükseklik ayarlayın */
+  }
+  
+  
+  button {
+    font-size: 1em;
+    margin: 0 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
